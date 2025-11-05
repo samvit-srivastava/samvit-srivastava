@@ -5,4 +5,8 @@
 
 ---
 ### 🎉 My Holopin Badges
-[![@samvitsrivastava's Holopin board](https://holopin.io/api/user/board?user=samvitsrivastava)](https://holopin.io/@samvitsrivastava)
+<p align="center">
+  <a href="https://holopin.io/@samvitsrivastava">
+    <img src="https://holopin.io/api/user/board?user=samvitsrivastava" alt="@samvitsrivastava's Holopin board" />
+  </a>
+</p>
