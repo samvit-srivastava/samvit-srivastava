@@ -1,7 +1,7 @@
 ## 👋 Hi there, I'm Samvit!
 
  Passionate about coding, open source, and continuous learning.  
- Currently contributing to open source and participating in Hacktoberfest.
+ Currently contributing to open source and participated in Hacktoberfest.
 
 ---
 ###  My Holopin Badges
