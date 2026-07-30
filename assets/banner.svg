@@ -1,1 +1,132 @@
+<svg width="900" height="350" viewBox="0 0 900 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="o1" cx="18%" cy="28%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.28">
+        <animate attributeName="stop-opacity" values="0.28;0.45;0.28" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="o2" cx="82%" cy="62%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.24">
+        <animate attributeName="stop-opacity" values="0.24;0.40;0.24" dur="5.5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="o3" cx="50%" cy="88%" r="45%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18">
+        <animate attributeName="stop-opacity" values="0.18;0.32;0.18" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="o4" cx="60%" cy="12%" r="35%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.14;0.26;0.14" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00F2FE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="25%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter>
+    <filter id="tglow"><feGaussianBlur stdDeviation="1.5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter>
+  </defs>
 
+  <rect width="900" height="350" fill="#010409"/>
+  <rect width="900" height="350" fill="url(#o1)"/>
+  <rect width="900" height="350" fill="url(#o2)"/>
+  <rect width="900" height="350" fill="url(#o3)"/>
+  <rect width="900" height="350" fill="url(#o4)"/>
+
+  <!-- Grid -->
+  <g opacity="0.035">
+    <line x1="0" y1="50" x2="900" y2="50" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="900" y2="100" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="900" y2="150" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="900" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="900" y2="250" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="900" y2="300" stroke="#fff" stroke-width="0.5"/>
+    <line x1="150" y1="0" x2="150" y2="350" stroke="#fff" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="350" stroke="#fff" stroke-width="0.5"/>
+    <line x1="450" y1="0" x2="450" y2="350" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="350" stroke="#fff" stroke-width="0.5"/>
+    <line x1="750" y1="0" x2="750" y2="350" stroke="#fff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <path d="M 22 14 L 14 14 L 14 22" stroke="#00F2FE" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 878 14 L 886 14 L 886 22" stroke="#8B5CF6" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 22 336 L 14 336 L 14 328" stroke="#8B5CF6" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 878 336 L 886 336 L 886 328" stroke="#00F2FE" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Status dot -->
+  <circle cx="36" cy="30" r="3.5" fill="#00F2FE" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="48" y="34" font-family="'Fira Code','Courier New',monospace" font-size="9" fill="#00F2FE" opacity="0.45" letter-spacing="1.5">SYS.ONLINE</text>
+
+  <!-- Floating particles -->
+  <circle cx="810" cy="45" r="1.5" fill="#00F2FE" opacity="0.3"><animate attributeName="opacity" values="0.3;0.08;0.3" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="835" cy="72" r="1" fill="#8B5CF6" opacity="0.25"><animate attributeName="opacity" values="0.25;0.06;0.25" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="790" cy="85" r="1.2" fill="#3B82F6" opacity="0.2"><animate attributeName="opacity" values="0.2;0.05;0.2" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="55" cy="285" r="1" fill="#8B5CF6" opacity="0.2"><animate attributeName="opacity" values="0.2;0.04;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="95" cy="310" r="1.5" fill="#00F2FE" opacity="0.15"><animate attributeName="opacity" values="0.15;0.04;0.15" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="840" cy="290" r="1" fill="#6366F1" opacity="0.18"><animate attributeName="opacity" values="0.18;0.04;0.18" dur="5.5s" repeatCount="indefinite"/></circle>
+  <circle cx="120" cy="60" r="0.8" fill="#3B82F6" opacity="0.15"><animate attributeName="opacity" values="0.15;0.03;0.15" dur="6s" repeatCount="indefinite"/></circle>
+
+  <!-- Name -->
+  <text x="450" y="128" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="54" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1.5" filter="url(#tglow)">Samvit Srivastava</text>
+
+  <!-- Role pill -->
+  <rect x="305" y="148" width="290" height="32" rx="16" fill="#0D1117" fill-opacity="0.8" stroke="#21262D" stroke-width="1"/>
+  <text x="450" y="169" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="11" font-weight="600" fill="#8B949E" letter-spacing="3">COMPUTER SCIENCE STUDENT</text>
+
+  <!-- Accent line -->
+  <rect x="180" y="202" width="540" height="2.5" rx="1.25" fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tagline -->
+  <text x="450" y="245" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16" fill="#6E7681" letter-spacing="0.3">Building practical software through</text>
+
+  <!-- Three pillars -->
+  <text x="270" y="282" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="15" font-weight="700" fill="#00F2FE" opacity="0.9" filter="url(#tglow)">AI</text>
+  <circle cx="330" cy="278" r="2" fill="#21262D"/>
+  <text x="450" y="282" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="15" font-weight="700" fill="#3B82F6" opacity="0.9" filter="url(#tglow)">OPEN SOURCE</text>
+  <circle cx="570" cy="278" r="2" fill="#21262D"/>
+  <text x="640" y="282" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="15" font-weight="700" fill="#8B5CF6" opacity="0.9" filter="url(#tglow)">HACKATHONS</text>
+
+  <!-- Right orbit -->
+  <g transform="translate(830, 175)">
+    <circle cx="0" cy="0" r="60" stroke="#00F2FE" stroke-width="0.7" stroke-dasharray="3 5" opacity="0.2">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="38" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="6 4" opacity="0.18">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#3B82F6" opacity="0.5"/>
+  </g>
+
+  <!-- Left orbit -->
+  <g transform="translate(70, 175)">
+    <circle cx="0" cy="0" r="45" stroke="#8B5CF6" stroke-width="0.5" stroke-dasharray="4 7" opacity="0.14">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="28" stroke="#00F2FE" stroke-width="0.5" stroke-dasharray="3 5" opacity="0.1">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="2" fill="#8B5CF6" opacity="0.4"/>
+  </g>
+
+  <!-- Bottom glow line -->
+  <rect x="0" y="348" width="900" height="2" fill="url(#accent)" opacity="0.7"/>
+</svg>
