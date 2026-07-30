@@ -4,10 +4,10 @@
 
 <br/>
 
-<a href="https://github.com/samvit-srivastava"><img src="https://img.shields.io/badge/GitHub-0D1117?style=flat&logo=github&logoColor=6E7681" alt="GitHub"/></a>&nbsp;&nbsp;
-<a href="https://devpost.com/samvitsrivastava10"><img src="https://img.shields.io/badge/Devpost-0D1117?style=flat&logo=devpost&logoColor=6E7681" alt="Devpost"/></a>&nbsp;&nbsp;
-<a href="mailto:samvitsrivastava10@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat&logo=gmail&logoColor=6E7681" alt="Email"/></a>&nbsp;&nbsp;
-<a href="https://holopin.io/@samvitsrivastava"><img src="https://img.shields.io/badge/Holopin-0D1117?style=flat&logo=holopin&logoColor=6E7681" alt="Holopin"/></a>
+<a href="https://github.com/samvit-srivastava"><img src="https://img.shields.io/badge/-samvit--srivastava-161B22?style=flat-square&logo=github&logoColor=00F2FE" alt="GitHub"/></a>&nbsp;
+<a href="https://devpost.com/samvitsrivastava10"><img src="https://img.shields.io/badge/-Devpost-161B22?style=flat-square&logo=devpost&logoColor=3B82F6" alt="Devpost"/></a>&nbsp;
+<a href="mailto:samvitsrivastava10@gmail.com"><img src="https://img.shields.io/badge/-samvitsrivastava10@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=8B5CF6" alt="Email"/></a>&nbsp;
+<a href="https://holopin.io/@samvitsrivastava"><img src="https://img.shields.io/badge/-Holopin-161B22?style=flat-square&logo=holopin&logoColor=00F2FE" alt="Holopin"/></a>
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
 
 <br/>
 
-Computer Science student working on AI, machine learning, and backend systems. I spend most of my time writing Python, contributing to open source at [MetaBrainz](https://github.com/metabrainz), and building things at hackathons. I like working on problems where software can make something tangibly better — whether that's helping new contributors get into a codebase or optimizing how a coffee shop manages inventory.
+CS undergrad focused on **AI/ML** and **backend engineering**. I've contributed to production systems at [MetaBrainz](https://github.com/metabrainz), built AI tools that actually get used, and prototyped projects at hackathons that went from "what if" to working demos in under 48 hours. Most of my work lives at the intersection of machine learning and backend infrastructure — building the pipelines, APIs, and systems that make models useful outside of notebooks.
 
 <br/>
 
@@ -30,24 +30,24 @@ Computer Science student working on AI, machine learning, and backend systems. I
 <br/>
 
 <table>
-<tr><td colspan="2">
-
-## Projects
-
-</td></tr>
+<tr><td colspan="2"><h2>Projects</h2></td></tr>
 <tr>
 <td width="50%" valign="top">
 
 **FirstCommit AI**
 
-AI-powered onboarding tool for GitHub repos. Helps new contributors understand a codebase and find where to start. Built with Python, FastAPI, and RAG pipelines.
+Takes a GitHub repository and generates a contributor onboarding guide — analyzes the codebase structure, surfaces good first issues, and walks newcomers through setup and contribution workflows. Built because I got tired of staring at unfamiliar repos with no idea where to start.
+
+`Python` `FastAPI` `LangChain` `GitHub API`
 
 </td>
 <td width="50%" valign="top">
 
 **BrewMind AI**
 
-Digital Twin system for campus coffee shops. Forecasts demand, simulates operations, and manages inventory using ML models and a React dashboard.
+Digital twin for a campus coffee shop. Ingests sales data, forecasts daily demand with ML, simulates shop operations, and flags when inventory is about to run out. The dashboard lets managers see what's happening and what's coming.
+
+`Python` `scikit-learn` `React` `MongoDB`
 
 </td>
 </tr>
@@ -56,7 +56,9 @@ Digital Twin system for campus coffee shops. Forecasts demand, simulates operati
 
 **POSEIDON AI**
 
-Hackathon build — intelligent ocean data analysis with computer vision and interactive visualization. Went from idea to working prototype in under 48 hours.
+Built at a hackathon in ~36 hours. Uses computer vision and satellite data to analyze ocean conditions — surface temperatures, algae patterns, pollution indicators. The visualization layer makes the data explorable instead of just readable.
+
+`Python` `OpenCV` `React` `FastAPI`
 
 </td>
 </tr>
@@ -74,16 +76,18 @@ Hackathon build — intelligent ocean data analysis with computer vision and int
 
 ## Open Source
 
-Contributor to **[MetaBrainz](https://github.com/metabrainz)** — the org behind MusicBrainz, ListenBrainz, and BookBrainz. Working on production systems used by millions taught me more about writing maintainable code than any course.
+I contribute to **[MetaBrainz](https://github.com/metabrainz)** — they build MusicBrainz, ListenBrainz, and other open music databases used by millions. Working on their codebase is where I learned what production code actually looks like: proper testing, code review, CI/CD, and writing things other people can maintain.
 
 </td>
 <td width="50%" valign="top">
 
 ## Hackathons
 
-I like building things under time pressure. Hackathons force you to scope ruthlessly, ship fast, and figure things out on the fly. Most of my best project ideas started as hackathon prototypes.
+Most of my projects started as hackathon prototypes. There's no better way to test whether an idea actually works than building it in a weekend with a deadline. The constraint forces you to cut scope, focus on what matters, and ship something real.
 
-[![Devpost](https://img.shields.io/badge/My_Builds-0D1117?style=flat&logo=devpost&logoColor=6E7681)](https://devpost.com/samvitsrivastava10)
+<br/>
+
+<a href="https://devpost.com/samvitsrivastava10"><img src="https://img.shields.io/badge/-See_my_hackathon_builds-161B22?style=flat-square&logo=devpost&logoColor=00F2FE" alt="Devpost"/></a>
 
 </td>
 </tr>
