@@ -21,7 +21,11 @@
 
 <br/>
 
-CS undergrad focused on **AI/ML** and **backend engineering**. I've contributed to production systems at [MetaBrainz](https://github.com/metabrainz), built AI tools that actually get used, and prototyped projects at hackathons that went from "what if" to working demos in under 48 hours. Most of my work lives at the intersection of machine learning and backend infrastructure — building the pipelines, APIs, and systems that make models useful outside of notebooks.
+## About Me
+
+I'm a Computer Science student interested in Artificial Intelligence, Machine Learning, and backend engineering.
+
+I enjoy building practical software through hackathons, personal projects, and open source contributions. Whether it's an AI application, a developer tool, or a backend service, I like turning ideas into working products while continuously improving my engineering skills.
 
 <br/>
 
@@ -29,14 +33,17 @@ CS undergrad focused on **AI/ML** and **backend engineering**. I've contributed 
 
 <br/>
 
+## Projects
+
 <table>
-<tr><td colspan="2"><h2>Projects</h2></td></tr>
 <tr>
 <td width="50%" valign="top">
 
 **FirstCommit AI**
 
-Takes a GitHub repository and generates a contributor onboarding guide — analyzes the codebase structure, surfaces good first issues, and walks newcomers through setup and contribution workflows. Built because I got tired of staring at unfamiliar repos with no idea where to start.
+An AI-powered GitHub onboarding assistant that helps developers understand unfamiliar repositories faster.
+
+It analyzes a repository's structure, explains the codebase, identifies beginner-friendly issues, and generates a personalized onboarding path so contributors can spend less time figuring out a project and more time building.
 
 `Python` `FastAPI` `LangChain` `GitHub API`
 
@@ -45,9 +52,11 @@ Takes a GitHub repository and generates a contributor onboarding guide — analy
 
 **BrewMind AI**
 
-Digital twin for a campus coffee shop. Ingests sales data, forecasts daily demand with ML, simulates shop operations, and flags when inventory is about to run out. The dashboard lets managers see what's happening and what's coming.
+An AI-powered digital twin built for campus coffee shops.
 
-`Python` `scikit-learn` `React` `MongoDB`
+The platform combines sales forecasting, inventory monitoring, and operational analytics to help managers predict demand, reduce waste, and make better day-to-day decisions.
+
+`Python` `React` `MongoDB` `Machine Learning`
 
 </td>
 </tr>
@@ -56,9 +65,11 @@ Digital twin for a campus coffee shop. Ingests sales data, forecasts daily deman
 
 **POSEIDON AI**
 
-Built at a hackathon in ~36 hours. Uses computer vision and satellite data to analyze ocean conditions — surface temperatures, algae patterns, pollution indicators. The visualization layer makes the data explorable instead of just readable.
+An AI-assisted ocean exploration platform developed during a hackathon.
 
-`Python` `OpenCV` `React` `FastAPI`
+The project combines computer vision and environmental data to visualize ocean conditions and make complex datasets easier to explore through an interactive interface.
+
+`Python` `OpenCV` `FastAPI` `React`
 
 </td>
 </tr>
@@ -76,18 +87,20 @@ Built at a hackathon in ~36 hours. Uses computer vision and satellite data to an
 
 ## Open Source
 
-I contribute to **[MetaBrainz](https://github.com/metabrainz)** — they build MusicBrainz, ListenBrainz, and other open music databases used by millions. Working on their codebase is where I learned what production code actually looks like: proper testing, code review, CI/CD, and writing things other people can maintain.
+I enjoy contributing to open source and collaborating with developers to build software that's useful, maintainable, and accessible.
+
+Working on community-driven projects has strengthened my understanding of collaborative development, code reviews, testing, and writing code that's designed to last.
 
 </td>
 <td width="50%" valign="top">
 
 ## Hackathons
 
-Most of my projects started as hackathon prototypes. There's no better way to test whether an idea actually works than building it in a weekend with a deadline. The constraint forces you to cut scope, focus on what matters, and ship something real.
+Hackathons are where I enjoy building the most.
 
-<br/>
+They push me to learn quickly, collaborate effectively, and turn ambitious ideas into working software within tight deadlines. Every event teaches me something new, whether it's a technical challenge, product thinking, or teamwork.
 
-<a href="https://devpost.com/samvitsrivastava10"><img src="https://img.shields.io/badge/-See_my_hackathon_builds-161B22?style=flat-square&logo=devpost&logoColor=00F2FE" alt="Devpost"/></a>
+<a href="https://devpost.com/samvitsrivastava10"><img src="https://img.shields.io/badge/-See_my_hackathon_projects_on_Devpost_→-161B22?style=flat-square&logo=devpost&logoColor=00F2FE" alt="Devpost"/></a>
 
 </td>
 </tr>
