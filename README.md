@@ -136,14 +136,6 @@ They push me to learn quickly, collaborate effectively, and turn ambitious ideas
 
 <br/>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=samvit-srivastava&bg_color=0D1117&color=6E7681&line=00F2FE&point=8B5CF6&area=true&area_color=00F2FE&hide_border=true&custom_title=Contributions" width="95%" alt="Activity"/>
-
-</div>
-
-<br/>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <p align="center"><sub>Always building.</sub></p>
